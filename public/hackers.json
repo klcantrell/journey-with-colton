@@ -1,0 +1,42 @@
+[
+  {
+    "id": "037443D3-BEE7-4B61-BF43-6B3546826FDF",
+    "name": "Dade Murphy",
+    "coolness": 99
+  },
+  {
+    "id": "1CA0C9A4-6AD8-4DF8-A046-67DAE8B28E8B",
+    "name": "David Lightman",
+    "coolness": 52
+  },
+  {
+    "id": "A138F048-F118-4071-A7A6-8D39D70559D3",
+    "name": "Emmanuel Goldstein",
+    "coolness": 40
+  },
+  {
+    "id": "BCCEAC56-1024-4DEC-BEB7-4459A4D6ACD4",
+    "name": "Lisbeth Salander",
+    "coolness": 100
+  },
+  {
+    "id": "3EA97561-EC1C-4065-90C5-2AA02AB5EA6E",
+    "name": "Kate Libby",
+    "coolness": 97
+  },
+  {
+    "id": "D5D79C3D-753B-431E-97B5-97DED28C1590",
+    "name": "Paul Cook",
+    "coolness": 60
+  },
+  {
+    "id": "59836898-6FB6-4A4C-B68D-FF91BDD066C6",
+    "name": "Joey Pardella",
+    "coolness": 10
+  },
+  {
+    "id": "79AA8A0F-FC07-4071-8F6C-FA0D0ECBBF69",
+    "name": "Trinity",
+    "coolness": 97
+  }
+]

@@ -1,0 +1,113 @@
+$common-border-radius: 2px;
+$common-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.16);
+$danger-color: #FF5954;
+$header-font-size: 1.2em;
+$logo-size: 50px;
+$page-background: #E5E5E5;
+$panel-background: #FFFFFF;
+$panel-padding: 8px 16px;
+$panel-width: 520px;
+$result-spacing: 8px;
+$score-border-radius: 99px;
+$score-padding: 4px 8px;
+$select-border: 1px solid #f5f5f5;
+$search-padding: 4px 8px;
+$search-border: 0;
+$success-color: #55CC5F;
+$vertical-spacing: 16px;
+$warning-color: #E8C758;
+$info-bar-font-size: 0.8em;
+
+// Start adding your styles here
+.example-rule {
+  color: $danger-color;
+}
+
+body {
+  background: $page-background;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: $vertical-spacing 0;
+}
+
+.logo-img {
+  width: $logo-size;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  width: $panel-width;
+  border: $search-border;
+  border-radius: $common-border-radius;
+  margin-bottom: $vertical-spacing;
+  padding: $search-padding;
+  box-shadow: $common-box-shadow;
+}
+
+.panel {
+  width: $panel-width;
+  background: $panel-background;
+  padding: $panel-padding;
+  border-radius: $common-border-radius;
+  box-shadow: $common-box-shadow;
+}
+
+.panel-header-text {
+  font-size: $header-font-size;
+}
+
+.info-bar, .result {
+  display: flex;
+}
+
+.info-bar {
+  font-size: $info-bar-font-size;
+  border-bottom: 1px solid $page-background;
+  padding-bottom: 4px;
+}
+
+.sort-by-container, .score {
+  margin-left: auto;
+}
+
+.sort-by-selector {
+  border: $select-border;
+  box-shadow: $common-box-shadow;
+}
+
+.score {
+  border-radius: $score-border-radius;
+  padding: $score-padding;
+}
+
+.score--red {
+  background: $danger-color;
+  color: white;
+}
+
+.score--yellow {
+  background: $warning-color;
+  color: black;
+}
+
+.score--green {
+  background: $success-color;
+  color: white;
+}
+
+.results {
+  padding: 0;
+}
+
+.result {
+  padding-bottom: $result-spacing;
+}
