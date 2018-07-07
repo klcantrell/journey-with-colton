@@ -28,7 +28,7 @@ const getCompareFn = sortScheme => {
       }
     default:
       return (a, b) => {
-        return a.name.charAt(0) - b.name.charAt(0);
+        return a.name.charCodeAt(0) - b.name.charCodeAt(0);
       }
   }
 }
